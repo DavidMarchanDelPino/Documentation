@@ -2,18 +2,116 @@ project:
   type: website
 
 website:
-  title: "Documentation"
+  title: My Documentation 
+  #cookie-consent:
+  #  type: express
+  #  style: headline
+  #  palette: dark
+
+  repo-url: https://github.com/daviddevops96/Documentation
+  repo-actions: [edit, issue]
+
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+    background: dark
+    style: "floating"
+    search: true
+    
+    right:
+      - text: Home
+        file: index.qmd
+      - sidebar:class_notes
+      - sidebar:tools
+      - sidebar:labs
+      - sidebar:todo
+      - sidebar:about
+ 
+  sidebar:
+    - id: "class_notes"
+      title: "Class Notes"
+      border: true
+      collapse-level: 1
+      background: none
+      style: "floating"
+      contents:
+        - text: "Class Notes"
+        - text: "---"  
+        - section: "December 2022"
+          contents: 
+            - class_notes/december.qmd
+        
+
+    - id: "tools"
+      title: "Tools"
+      contents: 
+        - text: "Tools"
+        - text: "---"  
+        - section: "Basic Tools"
+          contents: 
+            - tools/tools.qmd
+
+    - id: "labs"
+      title: "Labs"
+      contents: 
+        - text: "Labs"
+        - text: "---"  
+        - section: "Lab MarkUP"
+          contents: 
+            - labs/MarkUp/Lab#MD01-1.qmd
+  
+    - id: "todo"
+      title: "To-do"
+      border: true
+      collapse-level: 1
+      background: none
+      style: "floating"
+      contents:
+        - text: "To-do"
+        - text: "---"  
+        - section: "Ideas"
+          contents: 
+            - todo/ideas.qmd
+            - todo/todo-class.qmd
+          
+#create my about    
+    - id: "about"
+      title: "About"
+      contents: 
+        - text: "About"
+        - text: "---"  
+        - section: "About"
+          contents: 
+            - about/aboutme.qmd
+            - about/aboutthissite.qmd
+            - about/aboutlearning.qmd
+            - about/aboutimagescredit.qmd 
+            - about/aboutquestions.qmd                   
+  
+  
+  page-footer: 
+    background: dark
+    left: "[Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)" 
+    center: "if you want to go far, walk slow" 
+    right: 
+      - icon: github
+        href: https://github.com/AlbertProfe/
+      - icon: twitter 
+        href: https://twitter.com/ 
 
 format:
   html:
-    theme: cosmo
+    fontsize:  "1.0em"
+    theme:
+      light: default
+      dark: superhero
     css: styles.css
     toc: true
+    toc-depth: 5
+    email-obfuscation: javascript
+    
+execute:
+  cache: true
+  freeze: true
+
 
 
 

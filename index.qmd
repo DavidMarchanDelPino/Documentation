@@ -1,7 +1,5 @@
 ---
-title: "Documentation"
+title: "Author: David Marchan del Pino"
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+![](img/home/desarrollo-web-3.jpg)
