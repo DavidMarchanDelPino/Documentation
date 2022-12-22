@@ -3,3 +3,10 @@ title: "Author: David Marchan del Pino"
 ---
 
 ![](img/home/desarrollo-web-3.jpg)
+
+## What you can fin on this Quarto web? 
+   - 1) My course notes fom the CIFO course
+   - 2) The resolution of the laboratories and the links of my repos with the code
+   - 3) To-do task that I consider or other task provided by the profesor
+   - 4) Some tools that I use to perform my solutions and other functionalities that I am curious abaut
+
