@@ -1,1 +1,27 @@
-This is the file december
+---
+title: "December"
+---
+
+## Class 12/12/2022: Introduction-who will you marry 
+
+### Tool ChatGPT: Web tool 
+[ChatGPT](https://chat.openai.com/chat) is a model which interacts in a conversational way. The dialogue format makes it possible for ChatGPT to answer followup questions, admit its mistakes, challenge incorrect premises, and reject inappropriate requests. ChatGPT is a sibling model to InstructGPT, which is trained to follow an instruction in a prompt and provide a detailed response.
+
+### Quarto
+[Quarto](https://quarto.org/docs/guide/) is an open-source scientific and technical publishing system built on Pandoc
+It works with files .qmd (quarto mark down)
+
+### Recomended dependencies on a project with maven
+ - 1) **lombok** : Project Lombok is a java library that automatically plugs into your editor and build tools, spicing up your java.Never write another getter or equals method again, with one annotation your class has a fully featured builder, Automate your logging variables, and much more. 
+ - 2) **junit v.5** : JUnit 5 is the next generation of JUnit. The goal is to create an up-to-date foundation for developer-side testing on the JVM. This includes focusing on Java 8 and above, as well as enabling many different styles of testing.  
+
+### Lab excercice : Lab#MD01-1: Create and publish by Quarto
+
+```{mermaid}
+flowchart LR
+  A[Install VSCode] --> B[Install Quarto]
+  B --> C[Configure Repo GitHub and Git]
+  C --> D[Deploy Quarto on GH-Pages]
+
+```
+[Lab](/labs/MarkUp/Lab#MD01-1.qmd)
