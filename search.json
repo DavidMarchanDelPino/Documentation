@@ -9,8 +9,15 @@
   {
     "objectID": "class_notes/december.html",
     "href": "class_notes/december.html",
-    "title": "My Documentation",
+    "title": "December",
     "section": "",
-    "text": "This is the file december"
+    "text": "ChatGPT is a model which interacts in a conversational way. The dialogue format makes it possible for ChatGPT to answer followup questions, admit its mistakes, challenge incorrect premises, and reject inappropriate requests. ChatGPT is a sibling model to InstructGPT, which is trained to follow an instruction in a prompt and provide a detailed response.\n\n\n\nQuarto is an open-source scientific and technical publishing system built on Pandoc It works with files .qmd (quarto mark down)\n\n\n\n\n\nlombok : Project Lombok is a java library that automatically plugs into your editor and build tools, spicing up your java.Never write another getter or equals method again, with one annotation your class has a fully featured builder, Automate your logging variables, and much more.\n\n\njunit v.5 : JUnit 5 is the next generation of JUnit. The goal is to create an up-to-date foundation for developer-side testing on the JVM. This includes focusing on Java 8 and above, as well as enabling many different styles of testing.\n\n\n\n\n\n\n\n\n\nflowchart LR\n  A[Install VSCode] --> B[Install Quarto]\n  B --> C[Configure Repo GitHub and Git]\n  C --> D[Deploy Quarto on GH-Pages]\n\n\n\n\n\n\n\n\n\nLab"
+  },
+  {
+    "objectID": "index.html#what-you-can-fin-on-this-quarto-web",
+    "href": "index.html#what-you-can-fin-on-this-quarto-web",
+    "title": "Author: David Marchan del Pino",
+    "section": "What you can fin on this Quarto web?",
+    "text": "What you can fin on this Quarto web?\n\n\nMy course notes fom the CIFO course\n\n\nThe resolution of the laboratories and the links of my repos with the code\n\n\nTo-do task that I consider or other task provided by the profesor\n\n\nSome tools that I use to perform my solutions and other functionalities that I am curious abaut"
   }
 ]
