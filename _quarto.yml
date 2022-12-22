@@ -34,10 +34,15 @@ website:
       style: "floating"
       contents:
         - text: "Class Notes"
+        - text: "---"
+        - section: "Index"
+          contents:
+            - class_notes/index.qmd
         - text: "---"  
         - section: "December 2022"
           contents: 
             - class_notes/december.qmd
+        
         
 
     - id: "tools"
@@ -56,7 +61,7 @@ website:
         - text: "---"  
         - section: "Lab MarkUP"
           contents: 
-            - labs/MarkUp/Lab#MD01-1.qmd
+            - labs/Lab-MD01-1.qmd
   
     - id: "todo"
       title: "To-do"

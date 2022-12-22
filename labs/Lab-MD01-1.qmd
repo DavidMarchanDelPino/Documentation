@@ -1,0 +1,75 @@
+---
+title: "Lab#MD01-1"
+---
+
+## Resolution
+This is  the [**Repo link**](https://github.com/daviddevops96/Documentation)
+
+### Output publishing example:
+
+    PS C:\Users\AdministradorCIFO\Desktop\Projects\Documentation> quarto publish gh-pages
+    ? Update site at https://daviddevops96.github.io/Documentation/? (Y/n) » Yes
+    From https://github.com/daviddevops96/Documentation
+    * branch            gh-pages   -> FETCH_HEAD
+    Rendering for publish:
+
+    [1/9] 404.qmd
+    [2/9] about.qmd
+    [3/9] class_notes\december.qmd
+    [4/9] index.qmd
+    [5/9] labs\MarkUp\Lab#MD01-1.qmd
+    [6/9] sanbox_funcionalities\sandbox.qmd
+    [7/9] todo\ideas.qmd
+    [8/9] todo\todo-class.qmd
+    [9/9] tools\tools.qmd
+
+    branch 'gh-pages' set up to track 'origin/gh-pages'.
+    HEAD is now at 3c46989 Built site for gh-pages
+    Preparing worktree (resetting branch 'gh-pages'; was at 3c46989)
+    warning: in the working copy of '404.html', LF will be replaced by CRLF the next time Git touches it
+    warning: in the working copy of 'about.html', LF will be replaced by CRLF the next time Git touches it
+    warning: in the working copy of 'class_notes/december.html', LF will be replaced by CRLF the next time Git touches it
+    warning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it
+    warning: in the working copy of 'labs/MarkUp/Lab#MD01-1.html', LF will be replaced by CRLF the next time Git touches it
+    warning: in the working copy of 'robots.txt', LF will be replaced by CRLF the next time Git touches it
+    warning: in the working copy of 'sanbox_funcionalities/sandbox.html', LF will be replaced by CRLF the next time Git touches it
+    warning: in the working copy of 'search.json', LF will be replaced by CRLF the next time Git touches it
+    warning: in the working copy of 'site_libs/bootstrap/bootstrap-dark.min.css', LF will be replaced by CRLF the next time Git touches it
+    warning: in the working copy of 'site_libs/bootstrap/bootstrap-icons.css', LF will be replaced by CRLF the next time Git touches it
+    warning: in the working copy of 'site_libs/bootstrap/bootstrap.min.css', LF will be replaced by CRLF the next time Git touches it
+    warning: in the working copy of 'site_libs/bootstrap/bootstrap.min.js', LF will be replaced by CRLF the next time Git touches it
+    warning: in the working copy of 'site_libs/clipboard/clipboard.min.js', LF will be replaced by CRLF the next time Git touches it
+    warning: in the working copy of 'site_libs/quarto-html/anchor.min.js', LF will be replaced by CRLF the next time Git touches it
+    warning: in the working copy of 'site_libs/quarto-html/popper.min.js', LF will be replaced by CRLF the next time Git touches it
+    warning: in the working copy of 'site_libs/quarto-html/quarto-syntax-highlighting-dark.css', LF will be replaced by CRLF the next time Git touches it
+    warning: in the working copy of 'site_libs/quarto-html/quarto-syntax-highlighting.css', LF will be replaced by CRLF the next time Git touches it
+    warning: in the working copy of 'site_libs/quarto-html/quarto.js', LF will be replaced by CRLF the next time Git touches it
+    warning: in the working copy of 'site_libs/quarto-html/tippy.umd.min.js', LF will be replaced by CRLF the next time Git touches it
+    warning: in the working copy of 'site_libs/quarto-nav/headroom.min.js', LF will be replaced by CRLF the next time Git touches it
+    warning: in the working copy of 'site_libs/quarto-nav/quarto-nav.js', LF will be replaced by CRLF the next time Git touches it
+    warning: in the working copy of 'site_libs/quarto-search/autocomplete.umd.js', LF will be replaced by CRLF the next time Git touches it
+    warning: in the working copy of 'site_libs/quarto-search/fuse.min.js', LF will be replaced by CRLF the next time Git touches it
+    warning: in the working copy of 'site_libs/quarto-search/quarto-search.js', LF will be replaced by CRLF the next time Git touches it
+    warning: in the working copy of 'sitemap.xml', LF will be replaced by CRLF the next time Git touches it
+    warning: in the working copy of 'todo/ideas.html', LF will be replaced by CRLF the next time Git touches it
+    warning: in the working copy of 'todo/todo-class.html', LF will be replaced by CRLF the next time Git touches it
+    warning: in the working copy of 'tools/tools.html', LF will be replaced by CRLF the next time Git touches it
+    warning: in the working copy of 'site_libs/quarto-diagram/mermaid-init.js', LF will be replaced by CRLF the next time Git touches it
+    warning: in the working copy of 'site_libs/quarto-diagram/mermaid.css', LF will be replaced by CRLF the next time Git touches it
+    warning: in the working copy of 'site_libs/quarto-diagram/mermaid.min.js', LF will be replaced by CRLF the next time Git touches it
+    [gh-pages 7409b31] Built site for gh-pages
+    16 files changed, 341 insertions(+), 26 deletions(-)
+    create mode 100644 labs/MarkUp/Lab#MD01-1.qmd
+    create mode 100644 site_libs/quarto-diagram/mermaid-init.js
+    create mode 100644 site_libs/quarto-diagram/mermaid.css
+    create mode 100644 site_libs/quarto-diagram/mermaid.min.js
+    origin  https://github.com/daviddevops96/Documentation.git (fetch)
+    origin  https://github.com/daviddevops96/Documentation.git (push)
+    To https://github.com/daviddevops96/Documentation.git
+    3c46989..7409b31  HEAD -> gh-pages
+
+    NOTE: GitHub Pages sites use caching so you might need to click the refresh
+    button within your web browser to see changes after deployment.
+
+    [>] Deploying gh-pages branch to website (this may take a few minutes)
+    [>] Published to https://daviddevops96.github.io/Documentation/
