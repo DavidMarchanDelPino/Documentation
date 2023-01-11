@@ -1,5 +1,5 @@
 ---
-title: "December"
+title: "December 2022"
 ---
 
 ## **Class 12/12/2022: Introduction-who will you marry** 
@@ -26,3 +26,67 @@ flowchart LR
 ```
 [Lab#MD01-1](/labs/Lab-MD01-1.qmd)
 
+## **Class 13/12/2022: Structure** 
+
+### Apps: VSCode, IntellJIdea, Quarto, GitHub, Git ...
+
+  - IntellJIdea option to create java projects but I use the VSCode to develop it.
+    - Structure of  the Project
+      - Tree : My project structure
+      - Pom : dependencies that must be on the root of the project
+      - Where is my project
+
+## **Class 14/12/2022: Scope** 
+
+- Comentary : GitHub update my project on my remote repository:
+
+      (Stage --> Commit --> Push)
+
+- My Commits stucture:
+
+      #[Nº]#Type#Description 
+### Class Java Structure:
+
+  public class Person {
+
+    - Fields --> declaration of the variables to define the class
+
+    - Constructor --> Witch values must have the objects of the class
+
+    - Methods --> Habilities of the Objects
+
+  }
+
+- Steps :
+
+  - Create test with Maven
+
+  - Add the depencies Junit, Lombok, Faker on the .pom 
+
+## **Class 15/12/2022: What is an Object?** 
+
+### Object on Java 
+
+  - A Java object is a member (also called an instance) of a Java class. Each object has an identity, a behavior and a state. The state of an object is stored in fields (variables), while methods (functions) display the object's behavior. Objects are created at runtime from templates, which are also known as classes.
+
+### Composition / Inherence :
+
+- Composition :
+  The composition is one form of Association. The composition can be defined as an association in which one class contains another class and this contained class depends on the containing class in such a way that it cannot exist independently.
+
+  We have seen an example of a has-a relationship above. In that, we had a car object which has an engine. This is an example of composition. In this, an engine cannot exist independently without a car.
+
+  The composition is more restricted when compared to Aggregation. The composition is not a Java feature. It is mainly considered a design technique.
+
+- Inheritance :
+
+  Inheritance is a fundamental concept in object-oriented programming. It is the process of creating new classes from existing classes.
+
+  In other words, it is the process of deriving new classes from existing classes, which allows developers to reuse and extend the functionality of existing classes.
+
+```{mermaid}
+flowchart LR
+  A[Dog] --> B[Person]
+  C [Student] --> B[Person]
+
+```

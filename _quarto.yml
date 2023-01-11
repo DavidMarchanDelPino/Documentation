@@ -42,6 +42,10 @@ website:
         - section: "December 2022"
           contents: 
             - class_notes/december.qmd
+        - text: "---"  
+        - section: "January 2023"
+          contents: 
+            - class_notes/january.qmd       
         
         
 
