@@ -84,9 +84,44 @@ flowchart LR
 
   In other words, it is the process of deriving new classes from existing classes, which allows developers to reuse and extend the functionality of existing classes.
 
+
+
 ```{mermaid}
-flowchart LR
-  A[Dog] --> B[Person]
-  C [Student] --> B[Person]
+classDiagram
+    
+    Animal <|-- Duck
+    Animal <|-- Fish
+    Animal <|-- Zebra
+    Animal : +int age
+    Animal : +String gender
+    Animal: +isMammal()
+    Animal: +mate()
+    class Duck{
+        +String beakColor
+        +swim()
+        +quack()
+    }
+    class Fish{
+        -int sizeInFeet
+        -canEat()
+    }
+    class Zebra{
+        +bool is_wild
+        +run()
+    }
+
+```
+
+```{mermaid}
+classDiagram
+
+classA --|> classB : Inheritance
+classC --* classD : Composition
+classE --o classF : Aggregation
+classG --> classH : Association
+classI -- classJ : Link(Solid)
+classK ..> classL : Dependency
+classM ..|> classN : Realization
+classO .. classP : Link(Dashed)
 
 ```
